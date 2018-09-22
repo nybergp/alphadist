@@ -1,3 +1,2 @@
 Transforming EHR data into format applicable to
-common machine learning algorithms, such as a Random Forest.
-
+common machine learning algorithms, such as a Random Forest. In this application, a multivariate dataset of patients and values are expected, and thus are required to be compressed into a single value representation per clinical measurement taken. Additionally, the values are converted into a numerical representation by the use of a representative shapelet and distances measured from it. The distance measure used in this case is alphadist, a distance measure similar to Levenshtein distance that includes alphabetical weighing of substitution operations.
