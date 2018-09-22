@@ -31,4 +31,3 @@ def alphadist(s1, s2):
                     distances_.append(alphabetical_diff(c1,c2))
         distances = distances_
     return distances[-1]
-
