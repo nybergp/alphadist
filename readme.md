@@ -15,10 +15,12 @@ Comparison of Levenshtein distance and alphadist using alphabetical weighing of 
 
 <h3>Relevance</h3>
 
-An approach that has been used when transforming large structured datasets based on Electronic Health Records (EHR) to formats applicable to common Machine Learning (ML) algorithms is to compress multivariate features into single-valued representations [1, 2]. Additionally, these single-valued features are also turned into a numerical representations using shapelets. The numerical value for each feature and subject is then derived from the distance between a representative shapelet and the actual feature value for each patient. In this operation, a distance measure is used. In the past, Levenshtein distance is the most common string metric used, although it has some clear drawbacks (e.g. lack of alphabetical weighing of operations) which alphadist attempts to address.
+An approach that has been used when transforming large structured datasets based on Electronic Health Records (EHR) to formats applicable to common Machine Learning (ML) algorithms is to compress multivariate features into single-valued representations [1, 2]. Additionally, these single-valued features are also turned into a numerical representations using shapelets [3]. The numerical value for each feature and subject is then derived from the distance between a representative shapelet and the actual feature value for each patient. In this operation, a distance measure is used. In the past, Levenshtein distance is the most common string metric used, although it has some clear drawbacks (e.g. lack of alphabetical weighing of operations) which alphadist attempts to address.
 
 <h3>References</h3>
 
 1. Zhao, J., Papapetrou, P., Asker, L., & Boström, H. (2017). Learning from heterogeneous temporal data in electronic health records. Journal of biomedical informatics, 65, 105-119.
 
 2. Bagattini, F., Karlsson, I., Rebane, J., & Papapetrou, P. (2019). A classification framework for exploiting sparse multi-variate temporal features with application to adverse drug event detection in medical records. BMC medical informatics and decision making, 19(1), 7.
+
+3. Ye, L., & Keogh, E. (2009, June). Time series shapelets: a new primitive for data mining. In Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 947-956). ACM.
